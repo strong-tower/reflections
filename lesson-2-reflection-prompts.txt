@@ -21,6 +21,10 @@ have history of changes to either versions of my app separated
 
 How do the diagrams help you visualize the branch structure?
 
+The branch graph helps to see how git determines its git log (for active or specified branch),
+more than that, it helps to see unreachable commits, that could be lost if not branched off
+ex git log branch_name OR git log [for active branch implicitly]
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
