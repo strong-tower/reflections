@@ -16,6 +16,9 @@ belong to a logical unit or not before committing the changes.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+I may want to create a different version of the app I am working on, it helps to
+have history of changes to either versions of my app separated
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
