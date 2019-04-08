@@ -28,5 +28,10 @@ ex git log branch_name OR git log [for active branch implicitly]
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging 2 branches merges commits in one branch to commits in the checkout branch.
+We represent it in the diagram the way we did to show that merging branches creates
+a commit for the merge and updates the checked out commit to contain the result of
+the merge
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
