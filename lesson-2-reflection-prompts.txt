@@ -35,3 +35,9 @@ the merge
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+For manual merging, we are able to semantically determine how a conflict should be
+resolved by understanding the logic behind the conflicts by talking to the authors
+or seeing if we understand it ourselves and choose a resolution thereby choosing the
+right solution, however if git attempts to resolve commits automatically, it might
+not be able to decipher the true intentions of the authors.
