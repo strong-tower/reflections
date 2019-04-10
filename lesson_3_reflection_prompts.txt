@@ -13,3 +13,19 @@ automatically stay up-to-date with your remote repository?
     in order not to disrupt my workflow locally.
     It's better I explicitly sync in new changes to my local repository when I'm ready
     for it.
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+    Forks; a github concept, are used to clone a copy of an existing repository on
+    github that you want to be able to modify but do not have permission to modify.
+    Fork clone's the original repository
+    which existed on github in some other user's account to your own account on github.
+    You can then either modify the forked version there on github or clone it to a local
+    computer and it's automatically set up as a remote for the local clone.
+    Clones however is a git concept and can copy a repository to your local computer
+    from any remote.
+    Branches are a git concept and are used to create a version of a given repository from
+    an original, having it's own history of commits and a tip representing the latest
+    commit in the branch. A branch will always have a common commit with the branch that
+    was active in the repository when the new branch was created.
