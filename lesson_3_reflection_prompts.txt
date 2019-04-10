@@ -29,3 +29,14 @@ instead of another?
     an original, having it's own history of commits and a tip representing the latest
     commit in the branch. A branch will always have a common commit with the branch that
     was active in the repository when the new branch was created.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    This helps to see firstly how a local repository differ in the number of new commits
+    from its remote, thereby serving as reminder to the author of the need to push changes
+    and keep the local repo in sync with the remote repo.
+    It secondly serves as a pivot point to receive git fetches from the remote repository
+    to sync the remote copy with the local copy
+    which can then be used to compare with the local repository to see if there may be
+    divergence between the local and remote repositories, running git status.
+    which should then be merged (resolved if any merge conflicts arise)
