@@ -40,3 +40,10 @@ What is the benefit of having a copy of the last known state of the remote store
     which can then be used to compare with the local repository to see if there may be
     divergence between the local and remote repositories, running git status.
     which should then be merged (resolved if any merge conflicts arise)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
+
+    To collaborate without git or github would make the process very tedious and
+    error-prone. Keeping branches and commit history would be near impossible.
+    Sending pull requests could be handled via email but would be very fragile.
