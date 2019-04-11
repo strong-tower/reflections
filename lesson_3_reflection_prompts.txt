@@ -47,3 +47,13 @@ would be harder?
     To collaborate without git or github would make the process very tedious and
     error-prone. Keeping branches and commit history would be near impossible.
     Sending pull requests could be handled via email but would be very fragile.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+    I would want to make changes in a separate branch rather than directly in master
+    when I'm collaborating on a project with other developers and want to get feedback
+    on a new feature I'm adding or when I'm experimenting or exploring a new path
+    through my codebase and don't want to yet merge those changes into the master branch.
+    This gives the benefit of not being afraid to make breaking changes and also get
+    input from others.
